@@ -3,7 +3,7 @@
 
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/nianyi778)
 [![twitter](https://img.shields.io/badge/-twitter-black?style=flat&logo=twitter&logoColor=white)](https://x.com/nianyi_778)
-[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:Fernando.Roldan.Zafra@gmail.com)
+[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:nianyi778@gmail.com)
 
 Welcome to my Github page! I am likai and I'm now a front end executive at a visualization technology company!  
 
