@@ -15,11 +15,17 @@ Welcome to my Github page! I am likai and I'm now the front-end director of a vi
 - Attend English level test training
 - Develop a desktop application similar to ticktick [FlowMaster](https://github.com/nianyi778/FlowMaster) 🚀 *coming soon*
 
+
 #### :muscle: Things I am challenging myself with:
 - Waking up earlier to make good use of the day
 - Coding at least 4 hours a day
 - Exercising 3 days a week
 - One day I could work in Japan or Europe
+
+<br/>
+
+#### :trophy: I hope I can do better:
+<img width="100%"  src="https://github-profile-trophy.vercel.app/?username=nianyi778" />
 
 #### :computer: Programming languages and tools: 
 <p>
@@ -39,3 +45,5 @@ Welcome to my Github page! I am likai and I'm now the front-end director of a vi
 </p>
 
 <sub>Credits to: <br/>[IreneHerrerart](https://www.artstation.com/ireneherrera) for the wonderfull [picture](https://github.com/FernandoRoldan93/FernandoRoldan93/blob/master/cover_image.jpg)</sub>
+
+
