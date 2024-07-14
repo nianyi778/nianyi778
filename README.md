@@ -7,19 +7,19 @@
 
 Welcome to my Github page! I am likai and I'm now a front end executive at a visualization technology company!  
 
-<img align="right" alt="img" src="https://github.com/nianyi778/nianyi778/blob/master/cover_image.jpg" width="50%" height="auto" />
+<img align="right" alt="img" src="https://github.com/FernandoRoldan93/FernandoRoldan93/blob/master/cover_image.jpg" width="50%" height="auto" />
 
 
 #### 🌱 Things I am currently working on: 
-- Finish my Computer Engineering Master Degree  
-- Taking online courses about Data Science and Machine Learning 
-- Business practices on [bi4 Group Spain](https://github.com/bi4group) 🚀 *coming soon*
+- Make the company's products more competitive in the industry 
+- Attend English level test training
+- Develop a desktop application similar to ticktick [FlowMaster](https://github.com/nianyi778/FlowMaster) 🚀 *coming soon*
 
 #### :muscle: Things I am challenging myself with:
 - Waking up earlier to make good use of the day
 - Coding at least 4 hours a day
 - Exercising 3 days a week
-- Improving my CV with some education apart from university
+- One day I could work in Japan or Europe
 
 #### :computer: Programming languages and tools: 
 <p>
