@@ -5,7 +5,7 @@
 [![twitter](https://img.shields.io/badge/-twitter-black?style=flat&logo=twitter&logoColor=white)](https://x.com/nianyi_778)
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:nianyi778@gmail.com)
 
-Welcome to my Github page! I am likai and I'm now a front end executive at a visualization technology company!  
+Welcome to my Github page! I am likai and I'm now the front-end director of a visualization technology company in mainland China!  
 
 <img align="right" alt="img" src="https://github.com/FernandoRoldan93/FernandoRoldan93/blob/master/cover_image.jpg" width="50%" height="auto" />
 
