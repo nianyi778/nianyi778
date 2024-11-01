@@ -2,7 +2,7 @@
 ### This is Nianyi778!
 
 [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/nianyi778)
-[![twitter](https://img.shields.io/badge/-twitter-black?style=flat&logo=twitter&logoColor=white)](https://x.com/nianyi_778)
+[![twitter](https://img.shields.io/badge/-twitter-black?style=flat&logo=twitter&logoColor=white)](https://x.com/nianyi778)
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:nianyi778@gmail.com)
 
 Welcome to my Github page! I am likai and I'm now the front-end director of a visualization technology company in mainland China!  
