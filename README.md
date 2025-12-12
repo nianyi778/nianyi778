@@ -1,49 +1,84 @@
-### Hi there 👋 
-### This is Nianyi778!
+<div align="center">
 
-[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/nianyi778)
-[![twitter](https://img.shields.io/badge/-twitter-black?style=flat&logo=twitter&logoColor=white)](https://x.com/nianyi778)
-[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:nianyi778@gmail.com)
+# Hi there, I'm Likai (Nianyi778) 👋
 
-Welcome to my Github page! I am likai and I'm now the front-end director of a visualization technology company in mainland China!  
+[![Github](https://img.shields.io/badge/-Github-181717?style=flat-square&logo=Github&logoColor=white)](https://github.com/nianyi778)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/nianyi778)
+[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:nianyi778@gmail.com)
 
-<img align="right" alt="img" src="https://github.com/nianyi778/nianyi778/blob/main/user.png" width="50%" height="auto" />
-
-
-#### 🌱 Things I am currently working on: 
-- Make the company's products more competitive in the industry 
-- Attend English level test training
-- Develop a desktop application similar to ticktick [FlowMaster](https://github.com/nianyi778/FlowMaster) 🚀 *coming soon*
-
-
-#### :muscle: Things I am challenging myself with:
-- Waking up earlier to make good use of the day
-- Coding at least 4 hours a day
-- Exercising 3 days a week
-- One day I could work in Japan or Europe
+### 👨‍💻 Front-End Director | Data Visualization Specialist
+Based in Mainland China 🇨🇳
 
 <br/>
 
-#### :trophy: I hope I can do better:
-<img width="100%"  src="https://github-profile-trophy.vercel.app/?username=nianyi778" />
+<img src="https://github.com/nianyi778/nianyi778/blob/main/user.png?raw=true" width="400" alt="Likai Profile Image" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 
-#### :computer: Programming languages and tools: 
-<p>
-	<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=nianyi778&show_icons=true&hide_border=true" />
+<br/><br/>
 
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"></code>
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/electronjs/electronjs-ar21.svg"></code>
-<code><img width="8%" src="https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg"></code>
-<br />
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/nestjs/nestjs-ar21.svg"></code>
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/dartlang/dartlang-ar21.svg"></code>
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-ar21.svg"></code>
-<br />
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/rust-lang/rust-lang-ar21.svg"></code>
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"></code>
-<code><img width="10%" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"></code>
-</p>
+Welcome to my profile! I focus on creating high-performance visualization products that lead the industry.
 
-<sub>Credits to: <br/>[IreneHerrerart](https://www.artstation.com/ireneherrera) for the wonderfull [picture](https://github.com/FernandoRoldan93/FernandoRoldan93/blob/master/cover_image.jpg)</sub>
+---
 
+</div>
 
+### 🌱 What I'm Working On
+* **Product Strategy**: Elevating our company's visualization products to be the most competitive in the industry.
+* **Self Improvement**: Attending intensive English training for global communication.
+* **Side Project**: Developing **[FlowMaster](https://github.com/nianyi778/FlowMaster)** 🚀, a productivity desktop app inspired by TickTick. (*Coming soon*)
+
+### 💪 My Challenges & Daily Routine
+* ☀️ Waking up early to maximize the day.
+* 💻 Committing to **4+ hours** of coding daily outside of work.
+* 🏃 Exercising **3 days** a week for stamina.
+* 🌏 Aiming for a future career opportunity in **Japan** or **Europe**.
+
+<br/>
+
+---
+
+<div align="center">
+
+### 🛠 Tech Stack & Tools
+
+**Frontend & Desktop**
+<br/>
+<img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/-Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" />
+<img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+
+**Backend & Database**
+<br/>
+<img src="https://img.shields.io/badge/-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+<img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+
+**Languages & Others**
+<br/>
+<img src="https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+<img src="https://img.shields.io/badge/-Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+<img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+
+<br/>
+
+---
+
+### 📊 GitHub Stats
+
+<table>
+  <tr>
+    <td width="50%" align="center" style="border: none;">
+      <img src="https://github-readme-stats.vercel.app/api?username=nianyi778&show_icons=true&hide_border=true&count_private=true&theme=tokyonight" alt="nianyi778's stats" style="max-width: 100%;" />
+    </td>
+    <td width="50%" align="center" style="border: none;">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=nianyi778&theme=tokyonight&hide_border=true" alt="nianyi778's streak" style="max-width: 100%;" />
+    </td>
+  </tr>
+</table>
+
+### 🏆 Trophies
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=nianyi778&margin-w=15&margin-h=15&no-bg=true" alt="nianyi778's trophies" />
+</div>
+
+</div>
