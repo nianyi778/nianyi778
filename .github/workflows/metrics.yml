@@ -1,9 +1,8 @@
 name: Metrics
 on:
-  # 每天北京时间早上 8 点运行
-  schedule: [{cron: "0 0 * * *"}]
-  workflow_dispatch:
-  push: {branches: ["main"]}
+  schedule: [{cron: "0 0 * * *"}] # 每天运行
+  workflow_dispatch:              # 允许手动触发
+  push: {branches: ["main"]}      # 提交代码时触发
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -15,32 +14,23 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
           
-          # ---------------------------------------------
-          # 🎨 核心修改：使用 Radical 皮肤 (深色/赛博朋克风)
-          # 这会让生成的图片变成深色背景，完美匹配你的代码卡片
-          # ---------------------------------------------
-          template: radical
+          # ------------------------------------------------
+          # 🟢 重点：使用 terminal 模板
+          # 这就是生成黑客风格的关键，不需要额外皮肤参数
+          # ------------------------------------------------
+          template: terminal
           
           user: nianyi778
           config_timezone: Asia/Shanghai
           base: header, activity, community, repositories, metadata
           
-          # 📊 插件配置：让内容更丰富
-          
-          # 1. 语言分析 (显示你常用的编程语言)
+          # 编程语言条
           plugin_languages: yes
+          plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
-          plugin_languages_limit: 8
           
-          # 2. 成就徽章 (替换掉你原来挂掉的 trophies)
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: B
-          
-          # 3. 习惯分析 (显示你的活跃时间段)
+          # 习惯分析 (活跃时间段)
           plugin_habits: yes
-          plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
-          plugin_habits_charts: yes
