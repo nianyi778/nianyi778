@@ -1,15 +1,15 @@
 <div align="center">
 
-**English** | **[中文](./README.zh-CN.md)** | **[日本語](./README.ja.md)**
+**[English](./README.md)** | **中文** | **[日本語](./README.ja.md)**
 
-# Hi there, I'm Likai (Nianyi778) 👋
+# 你好，我是 Likai (Nianyi778) 👋
 
 [![Github](https://img.shields.io/badge/-Github-181717?style=flat-square&logo=Github&logoColor=white)](https://github.com/nianyi778)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://x.com/nianyi778)
 [![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=Gmail&logoColor=white)](mailto:nianyi778@gmail.com)
 
-### 👨‍💻 Frontend Developer | Visualization Specialist | Fintech
-Based in Tokyo, Japan 🇯🇵
+### 👨‍💻 前端开发工程师 | 可视化专家 | 金融科技
+坐标日本东京 🇯🇵
 
 <br/>
 
@@ -17,24 +17,24 @@ Based in Tokyo, Japan 🇯🇵
 
 <br/><br/>
 
-> *"Turning complex data into beautiful, interactive experiences."*
+> *"将复杂数据转化为美观、可交互的体验"*
 
-I am a developer specializing in **Data Visualization**, **Desktop Applications**, and **Online Payment Aggregation**. I focus on performance, user experience, and writing clean, maintainable code.
+我是一名专注于**数据可视化**、**桌面应用程序**和**在线聚合支付**的开发者。注重性能、用户体验，致力于编写简洁、易维护的代码。
 
 ---
 
 </div>
 
-### 🌱 What I'm Working On
-* **Professional**: Driving Japan's digital transformation in the fintech industry.
-* **Side Project**: Building **[StarTV](https://star.divinations.top/)** 🎬, a free video aggregation platform.
-* **Learning**: Polishing my Japanese & English skills for global technical communication.
+### 🌱 正在做的事
+* **工作**: 助力日本数字化改革，深耕金融科技领域。
+* **个人项目**: 搭建 **[StarTV](https://star.divinations.top/)** 🎬，免费视频聚合平台。
+* **学习**: 持续提升日语和英语能力，为全球化技术交流做准备。
 
-### 💪 Challenges & Goals
-* ☀️ **Morning Routine**: Early riser to maximize deep work time.
-* 💻 **Coding**: Committing to **4+ hours** of development daily.
-* 🏃 **Fitness**: Exercising **3 days** a week.
-* 🌏 **Dream**: Exploring more opportunities across **Asia** and **Europe**.
+### 💪 挑战 & 目标
+* ☀️ **早起**: 坚持早起，最大化深度工作时间。
+* 💻 **编码**: 每日投入 **4小时以上** 开发。
+* 🏃 **健身**: 每周运动 **3天**。
+* 🌏 **梦想**: 探索更多**亚洲**和**欧洲**的发展机会。
 
 <br/>
 
@@ -42,9 +42,9 @@ I am a developer specializing in **Data Visualization**, **Desktop Applications*
 
 <div align="center">
 
-### 🛠 Tech Stack
+### 🛠 技术栈
 
-| Frontend & Desktop | Mobile | Backend & Database | Languages & Tools |
+| 前端 & 桌面端 | 移动端 | 后端 & 数据库 | 语言 & 工具 |
 | :---: | :---: | :---: | :---: |
 | <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> <br> <img src="https://img.shields.io/badge/-Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" /> <br> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" /> | <img src="https://img.shields.io/badge/-Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" /> <br> <img src="https://img.shields.io/badge/-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" /> <br> <img src="https://img.shields.io/badge/-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" /> | <img src="https://img.shields.io/badge/-Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> <br> <img src="https://img.shields.io/badge/-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" /> <br> <img src="https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" /> | <img src="https://img.shields.io/badge/-Rust-000000?style=for-the-badge&logo=rust&logoColor=white" /> <br> <img src="https://img.shields.io/badge/-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" /> <br> <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" /> |
 
@@ -52,13 +52,13 @@ I am a developer specializing in **Data Visualization**, **Desktop Applications*
 
 ---
 
-### 📊 GitHub Analysis
+### 📊 GitHub 分析
 
 <img src="./github-metrics.svg" alt="GitHub Metrics" width="100%">
 
 <br/>
 
-### 🐍 Contribution Snake
+### 🐍 贡献贪吃蛇
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nianyi778/nianyi778/output/github-contribution-grid-snake-dark.svg" />
