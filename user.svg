@@ -1,0 +1,58 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="url(#bg)" rx="12" />
+  
+  <rect x="0" y="0" width="800" height="40" fill="#334155" rx="12" />
+  <rect x="0" y="30" width="800" height="10" fill="#334155" />
+  <circle cx="25" cy="20" r="6" fill="#ff5f56" />
+  <circle cx="45" cy="20" r="6" fill="#ffbd2e" />
+  <circle cx="65" cy="20" r="6" fill="#27c93f" />
+  
+  <g font-family="'JetBrains Mono', Consolas, monospace" font-size="20" fill="#e2e8f0">
+    <text x="50" y="100">
+      <tspan fill="#c678dd">interface</tspan> <tspan fill="#e5c07b">Developer</tspan> {
+    </text>
+    <text x="80" y="140">
+      name: <tspan fill="#98c379">'Likai (Nianyi778)'</tspan>;
+    </text>
+    <text x="80" y="180">
+      role: <tspan fill="#98c379">'Frontend Dev'</tspan> | <tspan fill="#98c379">'Visualization'</tspan>;
+    </text>
+    <text x="80" y="220">
+      location: <tspan fill="#61afef">'China'</tspan>;
+    </text>
+    <text x="80" y="260">
+      workingOn: [<tspan fill="#98c379">'FlowMaster'</tspan>, <tspan fill="#98c379">'Pro Visualization'</tspan>];
+    </text>
+    <text x="80" y="300">
+      dream: <tspan fill="#d19a66">Promise</tspan>&lt;<tspan fill="#98c379">'Europe'</tspan> | <tspan fill="#98c379">'Japan'</tspan>&gt;;
+    </text>
+    <text x="50" y="340">}</text>
+  </g>
+  
+  <g transform="translate(550, 100)" opacity="0.8">
+    <path d="M50 0 L100 25 L100 75 L50 100 L0 75 L0 25 Z" fill="none" stroke="#61afef" stroke-width="2">
+       <animate attributeName="stroke-dasharray" from="0,300" to="300,0" dur="3s" repeatCount="indefinite" />
+    </path>
+    <text x="28" y="55" font-size="14" fill="#61afef" text-anchor="middle">JS</text>
+    
+    <path d="M120 40 L160 60 L160 100 L120 120 L80 100 L80 60 Z" fill="none" stroke="#98c379" stroke-width="2">
+       <animate attributeName="stroke-dasharray" from="0,240" to="240,0" dur="4s" repeatCount="indefinite" />
+    </path>
+    <text x="120" y="85" font-size="12" fill="#98c379" text-anchor="middle">Vue</text>
+  </g>
+</svg>
