@@ -1,58 +1,236 @@
-<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="50%" stop-color="#1e293b"/>
-      <stop offset="100%" stop-color="#0f172a"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  
-  <rect width="100%" height="100%" fill="url(#bg)" rx="12" />
-  
-  <rect x="0" y="0" width="800" height="40" fill="#334155" rx="12" />
-  <rect x="0" y="30" width="800" height="10" fill="#334155" />
-  <circle cx="25" cy="20" r="6" fill="#ff5f56" />
-  <circle cx="45" cy="20" r="6" fill="#ffbd2e" />
-  <circle cx="65" cy="20" r="6" fill="#27c93f" />
-  
-  <g font-family="'JetBrains Mono', Consolas, monospace" font-size="20" fill="#e2e8f0">
-    <text x="50" y="100">
-      <tspan fill="#c678dd">interface</tspan> <tspan fill="#e5c07b">Developer</tspan> {
-    </text>
-    <text x="80" y="140">
-      name: <tspan fill="#98c379">'Likai (Nianyi778)'</tspan>;
-    </text>
-    <text x="80" y="180">
-      role: <tspan fill="#98c379">'Frontend Dev'</tspan> | <tspan fill="#98c379">'Visualization'</tspan>;
-    </text>
-    <text x="80" y="220">
-      location: <tspan fill="#61afef">'China'</tspan>;
-    </text>
-    <text x="80" y="260">
-      workingOn: [<tspan fill="#98c379">'FlowMaster'</tspan>, <tspan fill="#98c379">'Pro Visualization'</tspan>];
-    </text>
-    <text x="80" y="300">
-      dream: <tspan fill="#d19a66">Promise</tspan>&lt;<tspan fill="#98c379">'Europe'</tspan> | <tspan fill="#98c379">'Japan'</tspan>&gt;;
-    </text>
-    <text x="50" y="340">}</text>
-  </g>
-  
-  <g transform="translate(550, 100)" opacity="0.8">
-    <path d="M50 0 L100 25 L100 75 L50 100 L0 75 L0 25 Z" fill="none" stroke="#61afef" stroke-width="2">
-       <animate attributeName="stroke-dasharray" from="0,300" to="300,0" dur="3s" repeatCount="indefinite" />
-    </path>
-    <text x="28" y="55" font-size="14" fill="#61afef" text-anchor="middle">JS</text>
-    
-    <path d="M120 40 L160 60 L160 100 L120 120 L80 100 L80 60 Z" fill="none" stroke="#98c379" stroke-width="2">
-       <animate attributeName="stroke-dasharray" from="0,240" to="240,0" dur="4s" repeatCount="indefinite" />
-    </path>
-    <text x="120" y="85" font-size="12" fill="#98c379" text-anchor="middle">Vue</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="800" y2="400" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#0a0e1a"/><stop offset="50%" stop-color="#1a1040"/><stop offset="100%" stop-color="#0d1117"/>
+</linearGradient>
+<filter id="gC" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="gS" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="6"/></filter>
+<linearGradient id="bdr" x1="0" y1="0" x2="800" y2="400" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#00d4ff" stop-opacity="0.6"/><stop offset="40%" stop-color="#a855f7" stop-opacity="0.3"/>
+<stop offset="70%" stop-color="#00d4ff" stop-opacity="0.1"/><stop offset="100%" stop-color="#a855f7" stop-opacity="0.5"/>
+</linearGradient>
+<linearGradient id="skR"><stop offset="0%" stop-color="#00d4ff"/><stop offset="100%" stop-color="#0ea5e9"/></linearGradient>
+<linearGradient id="skT"><stop offset="0%" stop-color="#a855f7"/><stop offset="100%" stop-color="#7c3aed"/></linearGradient>
+<linearGradient id="skE"><stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+<linearGradient id="skU"><stop offset="0%" stop-color="#f97316"/><stop offset="100%" stop-color="#ea580c"/></linearGradient>
+</defs>
+<style>
+@keyframes cursor{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+@keyframes breathe{0%,100%{opacity:.15}50%{opacity:.35}}
+@keyframes fl1{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes fl2{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}
+.cursor{animation:cursor 1s step-end infinite}
+.pulse{animation:pulse 2.5s ease-in-out infinite}
+.breathe{animation:breathe 4s ease-in-out infinite}
+.f1{animation:fl1 6s ease-in-out infinite}
+.f2{animation:fl2 5s ease-in-out infinite}
+.m{font-family:'SF Mono','Cascadia Code','Fira Code',Consolas,monospace}
+.s{font-family:'Segoe UI','SF Pro Display',-apple-system,'Helvetica Neue',sans-serif}
+</style>
+
+<rect width="800" height="400" fill="url(#bg)" rx="10"/>
+
+<g opacity=".04" stroke="#00d4ff" stroke-width=".5">
+<line x1="0" y1="50" x2="800" y2="50"/><line x1="0" y1="100" x2="800" y2="100"/>
+<line x1="0" y1="150" x2="800" y2="150"/><line x1="0" y1="200" x2="800" y2="200"/>
+<line x1="0" y1="250" x2="800" y2="250"/><line x1="0" y1="300" x2="800" y2="300"/>
+<line x1="0" y1="350" x2="800" y2="350"/>
+<line x1="100" y1="0" x2="100" y2="400"/><line x1="200" y1="0" x2="200" y2="400"/>
+<line x1="300" y1="0" x2="300" y2="400"/><line x1="400" y1="0" x2="400" y2="400"/>
+<line x1="500" y1="0" x2="500" y2="400"/><line x1="600" y1="0" x2="600" y2="400"/>
+<line x1="700" y1="0" x2="700" y2="400"/>
+</g>
+
+<rect width="800" height="2" fill="#00d4ff" opacity=".03" rx="1">
+<animateTransform attributeName="transform" type="translate" values="0 -10;0 410;0 -10" dur="8s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="1" y="1" width="798" height="398" rx="10" fill="none" stroke="url(#bdr)" stroke-width="1.5" class="breathe"/>
+
+<rect x="20" y="12" width="760" height="28" rx="6" fill="#0d1117" opacity=".7"/>
+<rect x="20" y="12" width="760" height="28" rx="6" fill="none" stroke="#1e293b" stroke-width=".5"/>
+<circle cx="36" cy="26" r="4.5" fill="#ff5f56" opacity=".9"/>
+<circle cx="52" cy="26" r="4.5" fill="#ffbd2e" opacity=".9"/>
+<circle cx="68" cy="26" r="4.5" fill="#27c93f" opacity=".9"/>
+<text x="92" y="30" class="m" font-size="10" fill="#8b949e">likai@tokyo</text>
+<text x="175" y="30" class="m" font-size="10" fill="#3d4450">~</text>
+<text x="185" y="30" class="m" font-size="10" fill="#00d4ff" opacity=".7">~/projects/startv</text>
+
+<circle cx="720" cy="26" r="3" fill="#10b981" opacity=".9">
+<animate attributeName="r" values="3;4.5;3" dur="2s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values=".9;.5;.9" dur="2s" repeatCount="indefinite"/>
+</circle>
+<text x="730" y="30" class="m" font-size="9" fill="#10b981">online</text>
+
+<text x="36" y="78" class="s" font-size="26" font-weight="700" fill="#f0f6fc" filter="url(#gC)">Likai</text>
+<text x="120" y="78" class="m" font-size="13" fill="#00d4ff" opacity=".7">// nianyi778</text>
+<rect x="226" y="66" width="2" height="16" fill="#00d4ff" class="cursor"/>
+
+<text x="36" y="102" class="s" font-size="12" fill="#a855f7">Frontend Developer</text>
+<text x="162" y="102" class="m" font-size="11" fill="#3d4450">|</text>
+<text x="172" y="102" class="s" font-size="12" fill="#8b949e">Data Visualization</text>
+<text x="296" y="102" class="m" font-size="11" fill="#3d4450">|</text>
+<text x="306" y="102" class="s" font-size="12" fill="#8b949e">Fintech</text>
+
+<line x1="36" y1="115" x2="360" y2="115" stroke="#1e293b" stroke-width=".5"/>
+<line x1="36" y1="115" x2="180" y2="115" stroke="#00d4ff" opacity=".3" stroke-width=".5"/>
+
+<text x="36" y="140" class="m" font-size="11"><tspan fill="#3d4450">$</tspan><tspan fill="#8b949e"> location</tspan></text>
+<text x="130" y="140" class="m" font-size="11" fill="#f0f6fc">Tokyo, Japan</text>
+<g transform="translate(240,126)" opacity=".5">
+<path d="M6 16L10 0L14 16" fill="none" stroke="#f97316" stroke-width="1" stroke-linecap="round"/>
+<line x1="7.5" y1="10" x2="12.5" y2="10" stroke="#f97316" stroke-width=".7"/>
+<line x1="8.5" y1="6" x2="11.5" y2="6" stroke="#f97316" stroke-width=".7"/>
+</g>
+
+<text x="36" y="162" class="m" font-size="11"><tspan fill="#3d4450">$</tspan><tspan fill="#8b949e"> project</tspan></text>
+<text x="130" y="162" class="m" font-size="11" fill="#10b981">StarTV</text>
+<text x="185" y="162" class="m" font-size="9" fill="#3d4450">// video aggregation</text>
+
+<text x="36" y="184" class="m" font-size="11"><tspan fill="#3d4450">$</tspan><tspan fill="#8b949e"> stack</tspan></text>
+<text x="130" y="184" class="m" font-size="11"><tspan fill="#00d4ff">React</tspan><tspan fill="#3d4450"> · </tspan><tspan fill="#a855f7">TypeScript</tspan><tspan fill="#3d4450"> · </tspan><tspan fill="#10b981">Electron</tspan><tspan fill="#3d4450"> · </tspan><tspan fill="#f97316">Rust</tspan></text>
+
+<text x="36" y="218" class="m" font-size="9" fill="#3d4450">// proficiency</text>
+
+<text x="36" y="238" class="m" font-size="10" fill="#8b949e">React</text>
+<rect x="100" y="230" width="130" height="5" rx="2.5" fill="#1e293b"/>
+<rect x="100" y="230" width="0" height="5" rx="2.5" fill="url(#skR)"><animate attributeName="width" from="0" to="117" dur="1.5s" begin=".3s" fill="freeze"/></rect>
+<text x="236" y="238" class="m" font-size="8" fill="#00d4ff" opacity="0">90%<animate attributeName="opacity" from="0" to=".7" dur=".3s" begin="1.8s" fill="freeze"/></text>
+
+<text x="36" y="258" class="m" font-size="10" fill="#8b949e">TS</text>
+<rect x="100" y="250" width="130" height="5" rx="2.5" fill="#1e293b"/>
+<rect x="100" y="250" width="0" height="5" rx="2.5" fill="url(#skT)"><animate attributeName="width" from="0" to="111" dur="1.5s" begin=".5s" fill="freeze"/></rect>
+<text x="236" y="258" class="m" font-size="8" fill="#a855f7" opacity="0">85%<animate attributeName="opacity" from="0" to=".7" dur=".3s" begin="2s" fill="freeze"/></text>
+
+<text x="36" y="278" class="m" font-size="10" fill="#8b949e">Electron</text>
+<rect x="100" y="270" width="130" height="5" rx="2.5" fill="#1e293b"/>
+<rect x="100" y="270" width="0" height="5" rx="2.5" fill="url(#skE)"><animate attributeName="width" from="0" to="98" dur="1.5s" begin=".7s" fill="freeze"/></rect>
+<text x="236" y="278" class="m" font-size="8" fill="#10b981" opacity="0">75%<animate attributeName="opacity" from="0" to=".7" dur=".3s" begin="2.2s" fill="freeze"/></text>
+
+<text x="36" y="298" class="m" font-size="10" fill="#8b949e">Rust</text>
+<rect x="100" y="290" width="130" height="5" rx="2.5" fill="#1e293b"/>
+<rect x="100" y="290" width="0" height="5" rx="2.5" fill="url(#skU)"><animate attributeName="width" from="0" to="78" dur="1.5s" begin=".9s" fill="freeze"/></rect>
+<text x="236" y="298" class="m" font-size="8" fill="#f97316" opacity="0">60%<animate attributeName="opacity" from="0" to=".7" dur=".3s" begin="2.4s" fill="freeze"/></text>
+
+<g transform="translate(520,200)">
+<text x="0" y="-12" class="m" font-size="9" fill="#3d4450">commit_frequency[]</text>
+<rect x="0" y="60" width="14" height="0" rx="2" fill="#00d4ff" opacity=".6">
+<animate attributeName="height" values="0;55;50;55" dur="3s" begin=".2s" fill="freeze"/>
+<animate attributeName="y" values="60;5;10;5" dur="3s" begin=".2s" fill="freeze"/>
+</rect>
+<rect x="20" y="60" width="14" height="0" rx="2" fill="#00d4ff" opacity=".5">
+<animate attributeName="height" values="0;40;35;40" dur="3s" begin=".4s" fill="freeze"/>
+<animate attributeName="y" values="60;20;25;20" dur="3s" begin=".4s" fill="freeze"/>
+</rect>
+<rect x="40" y="60" width="14" height="0" rx="2" fill="#a855f7" opacity=".6">
+<animate attributeName="height" values="0;50;45;50" dur="3s" begin=".6s" fill="freeze"/>
+<animate attributeName="y" values="60;10;15;10" dur="3s" begin=".6s" fill="freeze"/>
+</rect>
+<rect x="60" y="60" width="14" height="0" rx="2" fill="#a855f7" opacity=".5">
+<animate attributeName="height" values="0;30;28;30" dur="3s" begin=".8s" fill="freeze"/>
+<animate attributeName="y" values="60;30;32;30" dur="3s" begin=".8s" fill="freeze"/>
+</rect>
+<rect x="80" y="60" width="14" height="0" rx="2" fill="#10b981" opacity=".6">
+<animate attributeName="height" values="0;58;55;58" dur="3s" begin="1s" fill="freeze"/>
+<animate attributeName="y" values="60;2;5;2" dur="3s" begin="1s" fill="freeze"/>
+</rect>
+<rect x="100" y="60" width="14" height="0" rx="2" fill="#10b981" opacity=".5">
+<animate attributeName="height" values="0;45;42;45" dur="3s" begin="1.2s" fill="freeze"/>
+<animate attributeName="y" values="60;15;18;15" dur="3s" begin="1.2s" fill="freeze"/>
+</rect>
+<rect x="120" y="60" width="14" height="0" rx="2" fill="#00d4ff" opacity=".7">
+<animate attributeName="height" values="0;52;48;52" dur="3s" begin="1.4s" fill="freeze"/>
+<animate attributeName="y" values="60;8;12;8" dur="3s" begin="1.4s" fill="freeze"/>
+</rect>
+<line x1="0" y1="62" x2="134" y2="62" stroke="#1e293b" stroke-width=".5"/>
+</g>
+
+<g transform="translate(620,100)" class="f1">
+<path d="M0-22L19-11L19 11L0 22L-19 11L-19-11Z" fill="none" stroke="#00d4ff" stroke-width="1.2" opacity=".5">
+<animateTransform attributeName="transform" type="rotate" values="0;360" dur="20s" repeatCount="indefinite"/>
+</path>
+<circle cx="0" cy="0" r="36" fill="none" stroke="#a855f7" stroke-width=".5" opacity=".2" stroke-dasharray="4 6">
+<animateTransform attributeName="transform" type="rotate" values="360;0" dur="30s" repeatCount="indefinite"/>
+</circle>
+<circle r="3" fill="#00d4ff" opacity=".8">
+<animateMotion dur="6s" repeatCount="indefinite" path="M36 0A36 36 0 1 1-36 0A36 36 0 1 1 36 0"/>
+</circle>
+<circle r="2" fill="#a855f7" opacity=".7">
+<animateMotion dur="8s" repeatCount="indefinite" path="M-36 0A36 36 0 1 0 36 0A36 36 0 1 0-36 0"/>
+</circle>
+</g>
+
+<g transform="translate(720,180)" class="f2" opacity=".4">
+<path d="M0-14L12-7L12 7L0 14L-12 7L-12-7Z" fill="none" stroke="#a855f7" stroke-width=".8">
+<animateTransform attributeName="transform" type="rotate" values="0;-360" dur="25s" repeatCount="indefinite"/>
+</path>
+</g>
+
+<g opacity=".3">
+<circle cx="490" cy="90" r="2" fill="#00d4ff" class="pulse"/>
+<circle cx="540" cy="120" r="1.5" fill="#a855f7" class="pulse" style="animation-delay:.5s"/>
+<circle cx="580" cy="75" r="1.5" fill="#10b981" class="pulse" style="animation-delay:1s"/>
+<circle cx="700" cy="290" r="2" fill="#00d4ff" class="pulse" style="animation-delay:1.5s"/>
+<circle cx="750" cy="310" r="1.5" fill="#a855f7" class="pulse" style="animation-delay:.8s"/>
+<circle cx="680" cy="320" r="1.5" fill="#10b981" class="pulse" style="animation-delay:1.2s"/>
+<line x1="490" y1="90" x2="540" y2="120" stroke="#00d4ff" stroke-width=".3" opacity=".5"/>
+<line x1="540" y1="120" x2="580" y2="75" stroke="#a855f7" stroke-width=".3" opacity=".5"/>
+<line x1="490" y1="90" x2="580" y2="75" stroke="#1e293b" stroke-width=".3"/>
+<line x1="700" y1="290" x2="750" y2="310" stroke="#00d4ff" stroke-width=".3" opacity=".5"/>
+<line x1="750" y1="310" x2="680" y2="320" stroke="#a855f7" stroke-width=".3" opacity=".5"/>
+</g>
+
+<g stroke="#1e293b" stroke-width=".5" fill="none" opacity=".5">
+<path d="M360 115L400 115L420 130L420 200"/>
+<path d="M260 298L300 298L320 320L480 320"/>
+<circle cx="420" cy="200" r="2" fill="#1e293b"/><circle cx="480" cy="320" r="2" fill="#1e293b"/>
+</g>
+
+<circle cx="600" cy="100" r="60" fill="#00d4ff" opacity=".02" filter="url(#gS)"/>
+<circle cx="700" cy="300" r="50" fill="#a855f7" opacity=".025" filter="url(#gS)"/>
+
+<rect x="20" y="360" width="760" height="26" rx="6" fill="#0d1117" opacity=".6"/>
+<rect x="20" y="360" width="760" height="26" rx="6" fill="none" stroke="#1e293b" stroke-width=".3"/>
+
+<text x="36" y="378" class="m" font-size="9" fill="#3d4450"><tspan fill="#10b981">></tspan><tspan fill="#8b949e"> building the future, one commit at a time</tspan></text>
+
+<circle cx="310" cy="374" r="1.5" fill="#00d4ff" opacity=".5">
+<animate attributeName="opacity" values=".2;.8;.2" dur="1.5s" begin="0s" repeatCount="indefinite"/>
+</circle>
+<circle cx="318" cy="374" r="1.5" fill="#00d4ff" opacity=".5">
+<animate attributeName="opacity" values=".2;.8;.2" dur="1.5s" begin=".3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="326" cy="374" r="1.5" fill="#00d4ff" opacity=".5">
+<animate attributeName="opacity" values=".2;.8;.2" dur="1.5s" begin=".6s" repeatCount="indefinite"/>
+</circle>
+
+<g transform="translate(560,358)" opacity=".15" fill="#8b949e">
+<rect x="0" y="8" width="8" height="18" rx="1"/><rect x="10" y="4" width="6" height="22" rx="1"/>
+<rect x="18" y="10" width="10" height="16" rx="1"/><rect x="30" y="2" width="7" height="24" rx="1"/>
+<path d="M48 26L52-2L56 26" fill="none" stroke="#8b949e" stroke-width="1.2"/>
+<line x1="49" y1="16" x2="55" y2="16" stroke="#8b949e" stroke-width=".6"/>
+<rect x="60" y="6" width="9" height="20" rx="1"/><rect x="71" y="10" width="7" height="16" rx="1"/>
+</g>
+
+<text x="740" y="378" class="m" font-size="8" fill="#3d4450" text-anchor="end">v2.0.26</text>
+
+<g opacity=".15">
+<circle cx="450" cy="160" r="1" fill="#00d4ff">
+<animate attributeName="cy" values="160;140;160" dur="7s" repeatCount="indefinite"/>
+</circle>
+<circle cx="380" cy="340" r="1" fill="#a855f7">
+<animate attributeName="cy" values="340;320;340" dur="9s" repeatCount="indefinite"/>
+</circle>
+<circle cx="760" cy="140" r=".8" fill="#10b981">
+<animate attributeName="cy" values="140;125;140" dur="8s" repeatCount="indefinite"/>
+</circle>
+</g>
+
+<g stroke="#00d4ff" stroke-width=".5" opacity=".2">
+<path d="M12 30L12 12L30 12"/><path d="M788 30L788 12L770 12"/>
+<path d="M12 370L12 388L30 388"/><path d="M788 370L788 388L770 388"/>
+</g>
 </svg>
