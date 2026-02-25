@@ -165,14 +165,7 @@
 
 <br/>
 
-<img width="390" src="https://github-readme-stats.vercel.app/api?username=nianyi778&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=a855f7&text_color=8b949e" alt="GitHub Stats" />
-&nbsp;&nbsp;
-<img width="390" src="https://github-readme-streak-stats.herokuapp.com/?user=nianyi778&theme=radical&hide_border=true&background=0d1117&stroke=00d4ff&ring=a855f7&fire=f97316&currStreakLabel=00d4ff" alt="GitHub Streak" />
-
-<br/><br/>
-
-<img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nianyi778&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=8b949e" alt="Top Languages" />
-
+<img width="480" src="https://streak-stats.demolab.com/?user=nianyi778&theme=radical&hide_border=true&background=0d1117&stroke=00d4ff&ring=a855f7&fire=f97316&currStreakLabel=00d4ff" alt="GitHub Streak" />
 </div>
 
 <br/>
