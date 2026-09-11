@@ -57,7 +57,7 @@ I'm a developer specializing in **Data Visualization**, **Desktop Applications**
 <br/>
 
 - 🏦 **Professional** — Driving Japan's digital transformation in the fintech industry
-- 🎬 **Side Project** — Building **[StarTV](https://star.divinations.top/)**, a free video aggregation platform
+- 🎬 **Side Project** — Building **[StarTV](https://star-flix.cc/)**, a free video aggregation platform
 - 🌐 **Learning** — Polishing my Japanese & English skills for global technical communication
 
 <br/>
